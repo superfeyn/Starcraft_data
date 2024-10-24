@@ -1,4 +1,4 @@
-- The "Replay" directory contains Starcraft replay files to extract raw data.
+- The "Replays" directory contains Starcraft replay files to extract raw data.
   
 - The "Human_observational_data" directory contains x and y coordinates data of humans observing the game.
   Each directory contains 5 files, where each directory represents a person, and each file represents a different game.
