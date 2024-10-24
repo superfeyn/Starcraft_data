@@ -25,7 +25,7 @@ For training observer, we designed the following structure:
 If you want to extract the other characteristics of units from replays, you can use BWAPI to generate raw data by extracting unit information for every frame.
 
 Visualization
-'''
+```
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -53,4 +53,4 @@ axes[1, 4].axis('off')
 
 plt.tight_layout()
 plt.savefig("subplot_output_custom_9_images.png")
-'''
+```
