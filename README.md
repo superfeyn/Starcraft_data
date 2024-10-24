@@ -9,7 +9,7 @@
 Example usage
 ###
 ```
-python 1_make_input.py --replays 36 212 438 522 1660 6254 #write the numbers of replays you want to extract data
+python 1_make_input.py --replays 36 212 438 522 1660 6254
 
 python 2_make_label.py --replays 36 212 438 522 1660 6254  --method all_correct
 
