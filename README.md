@@ -4,7 +4,7 @@
   Each directory contains 5 files, where each directory represents a person, and each file represents a different game.
   Directories 1 to 5, 6 to 10, and 11 to 15 contain observational data from the same games.
 
-
+- To create the preprocessed masked data, run 1_make_input.py, 2_make_label.py, and 3_make_paired.py sequentially with replay file numbers.
 
 Example usage
 ###
