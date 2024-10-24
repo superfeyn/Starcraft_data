@@ -23,3 +23,34 @@ For training observer, we designed the following structure:
 - Label: The human observational data from 5 spectators.
 
 If you want to extract the other characteristics of units from replays, you can use BWAPI to generate raw data by extracting unit information for every frame.
+
+Visualization
+'''
+import numpy as np
+import matplotlib.pyplot as plt
+
+a = np.load("../result/36/1550.npy", allow_pickle=True)
+print(a[0][0])
+print(a[0].shape)
+print(a[1].shape)
+print(a[1])
+
+fig, axes = plt.subplots(2, 5, figsize=(15, 6))
+
+for i in range(4):
+    ax = axes[0, i]
+    ax.imshow(a[0][i], cmap='gray')
+    ax.axis('off')  # 축 숨기기
+    ax.set_title(f"a[0][{i}]")
+
+for i in range(4, 9):
+    ax = axes[1, i-4]
+    ax.imshow(a[0][i], cmap='gray')
+    ax.axis('off')  # 축 숨기기
+    ax.set_title(f"a[0][{i}]")
+
+axes[1, 4].axis('off')
+
+plt.tight_layout()
+plt.savefig("subplot_output_custom_9_images.png")
+'''
