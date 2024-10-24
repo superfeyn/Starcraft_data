@@ -5,12 +5,11 @@
   Directories 1 to 5, 6 to 10, and 11 to 15 contain observational data from the same games.
 
 
-###################
 
-Example usages
+Example usage
 ###
 ```
-python 1_make_input.py --replays 36 212 438 522 1660 6254
+python 1_make_input.py --replays 36 212 438 522 1660 6254 #write the numbers of replays you want to extract data
 
 python 2_make_label.py --replays 36 212 438 522 1660 6254  --method all_correct
 
